@@ -26,3 +26,5 @@ componentDidMount(){
     })
   }
 }
+
+export default App
