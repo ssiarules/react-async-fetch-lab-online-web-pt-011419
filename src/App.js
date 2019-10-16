@@ -3,6 +3,10 @@ import React, { Component } from 'react'
 
 class App extends Component {
 
+  state = {
+    peopleInSpace: []
+  }
+
 render(){
   return(
     <div>
