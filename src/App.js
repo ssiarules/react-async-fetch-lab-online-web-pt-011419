@@ -6,7 +6,7 @@ class App extends Component {
 render(){
   return(
     <div>
-          {this.state}
+          {this.state.peopleInSpace.map}(person => person.name)
     </div>
   )
 }
